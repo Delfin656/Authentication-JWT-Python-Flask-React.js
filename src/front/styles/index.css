@@ -1,0 +1,97 @@
+/* 
+    General Styles used on every website (Don't Repeat Yourself)
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  width: 360px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #6c757d;
+  color: white;
+}
+
+.login h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.login form {
+  font-size: 20px;
+}
+
+.login form .form-group {
+  margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.carousel {
+  height: auto;
+  width: 100%;
+  border: none;
+  background: white;
+  overflow-x: scroll;
+}
+.characters {
+  height: auto;
+  display: flex;
+}
+
+.buttons-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-description {
+  width: 400px;
+}
+
+.btn-dropdown {
+  border: 0;
+  background: none;
+}
+
+.input-search {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.input-search:focus {
+  outline: none;
+}
+
+.input-search:active {
+  outline: none;
+}
+
+.suggestions {
+  background-color: rgb(228, 228, 228);
+}
+
+.suggestions a {
+  text-decoration: none;
+  color: black;
+}
+
+.div-login {
+  margin-top: 25px;
+  width: 800px;
+  height: 400px;
+  background-color: rgb(223, 221, 221);
+}
+
+.card-img-top {
+  height: 222px;
+}
