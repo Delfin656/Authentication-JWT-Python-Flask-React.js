@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
-import starwars from "../../img/starwars.jpeg";
 import "../../styles/home.css";
 import "../../styles/index.css";
 import { CardCharacter } from "../component/CardCharacter";
