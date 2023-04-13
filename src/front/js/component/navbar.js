@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
-import starWarsLogo from "../../img/pngwing.com.png";
+import starWarsLogo from "../../img/StarWars-logo-transparente.png";
 import { Context } from "../store/appContext";
 
 export const Navbar = () => {
